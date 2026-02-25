@@ -1,16 +1,51 @@
-# React + Vite
+# SubTrack – Subscription Management SaaS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SubTrack is a frontend SaaS-style web application that allows users to track and manage recurring subscriptions with monthly recurring revenue (MRR) calculations and subscription tier logic.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Authentication simulation
+- Protected dashboard routes
+- Add & delete subscriptions
+- Billing cycle modeling (Monthly / Yearly)
+- Yearly-to-monthly normalization for accurate MRR
+- Free vs Pro feature gating (3 subscription limit for Free users)
+- Analytics summary dashboard
+- LocalStorage persistence
+- Responsive minimal UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Product Thinking
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Yearly subscriptions are normalized into monthly recurring value to calculate accurate Monthly Recurring Revenue (MRR).
+
+Free users are limited to 3 subscriptions. Upgrading unlocks unlimited subscriptions.
+
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- React Router
+- Context API
+- LocalStorage
+- Plain CSS
+
+---
+
+## 📈 Future Improvements
+
+- Backend authentication
+- Stripe payment integration
+- Database persistence
+- Subscription editing
+- Charts and advanced analytics
+
+---
+
+## 🌍 Live Demo
+
+(Add your Vercel link here after deployment)
