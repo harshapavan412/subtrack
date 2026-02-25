@@ -48,4 +48,4 @@ Free users are limited to 3 subscriptions. Upgrading unlocks unlimited subscript
 
 ## 🌍 Live Demo
 
-(Add your Vercel link here after deployment)
+https://your-vercel-link.vercel.app
